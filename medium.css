@@ -1,0 +1,295 @@
+@media (max-width: 1150px) {
+  .header__nav ul {
+    justify-content: space-between;
+    width: 500px;
+  }
+  
+  .header__nav a {
+    padding-right: 0;
+  }
+
+  .header__search {
+    max-width: 25%;
+  }
+  
+  .middle__links a {
+    width: 30px;
+  }
+  
+  .middle__number a {
+    font-size: 18px;
+  }
+
+  .feedback__img {
+    width: 18px;
+    height: 19px;
+  }
+  
+  .feedback__text {
+    font-size: 13px;
+  }
+
+  h1.title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  span.subtitle {
+    font-size: 16px;
+  }
+
+  .bottom__links a {
+    font-size: 18px;
+  }
+
+  .about__title {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  .products .stone-icon {
+    display: none;
+  }
+
+  .brick__title {
+    text-align: center;
+  }
+
+  .garanty__title {
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .garanty .container {
+    padding-bottom: 40px;
+  }
+  
+  .garanty__wrapper {
+    display: block;
+    padding-top: 30px;
+  }
+
+  .garanty__text {
+    max-width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .garanty__img {
+    margin: 0 auto;
+    width: 560px;
+    max-width: 100%;
+  }
+  
+  .garanty__img .design {
+    display: none;
+  }
+
+  .footer__nav a {
+    width: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header__top .container {
+    justify-content: space-around;
+  }
+  
+  .top__info {
+    display: none;
+  }
+
+  .header__middle .container {
+    justify-content: space-around;
+  }
+  
+  .logo__text {
+    display: none;
+  }
+  
+  .middle__links {
+    display: none;
+  }
+
+  .middle__base {
+    width: 39px;
+    height: 36px;
+  }
+
+  .base__num {
+    top: -10px;
+    right: -5px;
+  }
+
+  .header__inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .h-container {
+    width: calc(55% - 15px);
+  }
+  
+  h1.title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .bottom__links {
+    display: block;
+    margin-top: 0;
+  }
+
+  .bottom__links a {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .bottom__logo {
+    display: none;
+  }
+
+  .advantages__title {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+  }
+
+  .advantages__subtitle {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: auto;
+  }
+
+  .about__title {
+    font-size: 40px;
+  }
+  
+  .about__wrapper {
+    display: block;
+    margin-top: 0;
+    padding: 0 0 35px 0;
+  }
+
+  .about__img {
+    width: 537px;
+    max-width: 100%;
+    margin: 25px auto;
+  }
+  
+  .about__text {
+    padding-left: 0;
+  }
+
+  .about__img .design {
+    display: none;
+  }
+
+  .products__item {
+    width: calc(33% - 15px);
+  }
+  
+  .products__title {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    left: 0;
+  }
+
+  .product__name {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 80px;
+  }
+
+  .brick__title {
+    font-size: 50px;
+  }
+  
+  .brick__item {
+    width: calc(100% / 3 - 15px);
+  }
+
+  .brick__more {
+    margin: 45px auto;
+  }
+
+  .contacts .container {
+    display: block;
+    padding: 30px 15px;
+  }
+
+  .contacts__text {
+    width: 100%;
+  }
+  
+  .contacts__title {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .contacts__subtitle {
+    font-size: 25px;
+  }
+
+  .contacts__info.address {
+    margin: 30px auto;
+  }
+
+  .contacts__info {
+    margin: 30px auto;
+  }
+
+  .contacts__map {
+    width: 100%;
+  }
+
+  .contacts__map iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .contacts__map .design {
+    display: none;
+  }
+
+  footer .container {
+    display: block;
+  }
+
+  .footer__nav {
+    justify-content: center;
+  }
+
+  .footer__nav a {
+    width: 250px;
+    font-size: 20px;
+  }
+  
+  .footer__item {
+    margin-top: 40px;
+  }
+
+  .footer__item:first-child {
+    margin-top: 10px;
+  }
+
+  .footer__title {
+    font-size: 30px;
+  }
+
+  .footer__info span {
+    font-size: 20px;
+  }
+
+  footer .feedback__submit {
+    padding: 20px 60px;
+  }
+}

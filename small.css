@@ -1,0 +1,273 @@
+@media (max-width: 719px) {
+  .header__top {
+    position: fixed;
+    bottom: 0;
+    left: 100vw;
+    display: block;
+    width: 100vw;
+    height: calc(100vh - 87px);
+    background: rgba(0, 0, 0, 0.7);
+    transition: left 0.3s;
+  }
+
+  .header__top.active {
+    left: 0;
+  }
+  
+  .header__top .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .header__nav {
+    width: 100%;
+  }
+  
+  .header__nav ul {
+    display: block;
+    width: 100%;
+    margin-top: -250px;
+  }
+  
+  .header__nav a {
+    font-size: 25px;
+    margin: 10px auto;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+  }
+  
+  .top__links {
+    justify-content: center;
+    margin-bottom: -250px;
+  }
+  
+  .top__links img {
+    width: 60px;
+  }
+  
+  .header__search {
+    max-width: 40%;
+  }
+  
+  .middle__number {
+    display: none;
+  }
+  
+  .header__middle .feedback__submit {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .header__middle .feedback__img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url(img/call.svg) center center;
+    background-repeat: no-repeat;
+    transition: all 0s;
+    outline: none;
+  }
+  
+  .header__middle .feedback__submit:hover .feedback__img {
+    background: url(img/call-or.svg) center center;
+    background-repeat: no-repeat;
+  }
+  
+  .header__middle .feedback__text {
+    display: none;
+  }
+
+  .navicon {
+    display: block;
+  }
+
+  .header__wrapper .slick-arrow {
+    display: none !important;
+  }
+  
+  .header__wrapper {
+    background: none;
+  }
+  
+  .header__inner.container {
+    display: block;
+    padding: 0;
+  }
+
+  .h-container {
+    padding: 20px 0;
+    background: url(img/background.jpg) 0 0;
+    width: 100%;
+  }
+  
+  .header__img {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .header__text {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 30px 15px;
+    background: #fff;
+  }
+
+  .advantages__title {
+    font-size: 40px;
+  }
+  
+  .advantages__wrapper {
+    margin-top: 40px;
+  }
+  
+  .advantages__item {
+    max-width: calc(50% - 15px);
+    width: calc(50% - 15px);
+    margin-bottom: 30px;    
+  }
+  
+  .advantages__subtitle {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .about__read-more {
+    margin: 28px auto 0 auto;
+  }
+
+  .products__item {
+    width: calc(50% - 15px);
+  }
+
+  .brick__title {
+    font-size: 35px;
+  }
+
+  .brick__item {
+    width: calc(50% - 15px);
+  }
+
+  .garanty__title {
+    font-size: 50px !important;
+  }
+
+  .garanty__img {
+    padding-top: 20px;
+    min-height: 1px;
+  }
+  
+  .footer__subtitle {
+    font-size: 16px !important;
+  }
+
+  .footer__networks {
+    width: 160px;
+  }
+  
+  .footer__networks img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  footer .feedback__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    width: 36px;
+  }
+  
+  .search__input {
+    padding: 0 5px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .search__icon {
+    display: none;
+  }
+
+  .header__middle .feedback__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .header__middle .feedback__img {
+    width: 20px;
+    height: 20px;
+    background: url(img/call.svg) center center / cover;
+    background-repeat: no-repeat;
+  }
+  
+  .about__title {
+    font-size: 35px;
+  }
+  
+  .about__text p {
+    font-size: 14px;
+  }
+
+  .products__title {
+    font-size: 26px;
+  }
+
+  .products__item {
+    width: 100%;
+  }
+
+  .brick__item {
+    width: 100%;
+  }
+
+  .brick__more {
+    font-size: 16px;
+  }
+
+  .garanty__title {
+    font-size: 30px !important;
+  }
+
+  .garanty__text {
+    font-size: 22px;
+  }
+
+  .contacts__title {
+    font-size: 26px;
+  }
+
+  .contacts__subtitle {
+    font-size: 20px;
+  }
+
+  .footer__nav {
+    display: block;
+  }
+
+  .footer__nav a {
+    width: 100%;
+  }
+
+  .footer__info span {
+    font-size: 22px;
+  }
+
+  .advantages__title {
+    font-size: 26px;
+  }
+
+  .advantages__item {
+    width: 100%;
+    max-width: 100%;
+  }
+}

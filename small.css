@@ -43,10 +43,6 @@
     margin-bottom: -250px;
   }
   
-  .top__links img {
-    width: 60px;
-  }
-  
   .header__search {
     max-width: 40%;
   }
@@ -118,6 +114,35 @@
     background: #fff;
   }
 
+  h1.title {
+    display: none;
+  }
+  
+  h1.title.mobile {
+    display: block;
+    padding: 15px 15px !important;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .bottom__links {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .bottom__links a {
+    width: 280px;
+    max-width: 100%;
+    margin: 20px auto 0 auto;
+  }
+  
+  span.subtitle {
+    margin-top: 0;
+    max-width: 100%;
+  }
+  
   .advantages__title {
     font-size: 40px;
   }
@@ -164,15 +189,6 @@
   
   .footer__subtitle {
     font-size: 16px !important;
-  }
-
-  .footer__networks {
-    width: 160px;
-  }
-  
-  .footer__networks img {
-    width: 70px;
-    height: 70px;
   }
   
   footer .feedback__text {
@@ -223,13 +239,31 @@
   }
 
   .products__item {
-    width: 100%;
+    width: calc(50% - 10px);
   }
 
+  .product__name {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .products__img {
+    margin: 20px auto 15px auto;
+  }
+  
   .brick__item {
-    width: 100%;
+    /* width: 100%; */
   }
 
+  .brick__name {
+    font-size: 16px;
+  }
+
+  .brick__description {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
   .brick__more {
     font-size: 16px;
   }
@@ -266,8 +300,12 @@
     font-size: 26px;
   }
 
+  .advantages__subtitle {
+    font-size: 15px;
+  }
+  
   .advantages__item {
-    width: 100%;
-    max-width: 100%;
+    width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
   }
 }

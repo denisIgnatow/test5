@@ -31,7 +31,7 @@
 
   h1.title {
     font-size: 28px;
-    line-height: 34px;
+    /* line-height: 34px; */
   }
 
   span.subtitle {
@@ -134,7 +134,7 @@
   
   h1.title {
     font-size: 24px;
-    line-height: 28px;
+    /* line-height: 28px; */
   }
   
   .bottom__links {
@@ -190,6 +190,7 @@
 
   .products__item {
     width: calc(33% - 15px);
+    padding-bottom: 0;
   }
   
   .products__title {

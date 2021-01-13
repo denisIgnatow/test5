@@ -1,6 +1,6 @@
 $(function() {
   $('.header__wrapper').slick({
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     speed: 2000
   })
@@ -13,6 +13,11 @@ $(function() {
     let garanty = $('.garanty__img')
     let height = $('.garanty__img .main').height()
     garanty.height(height)
+
+
+
+    let width = $('.header__middle .container').width() + 30
+    $('.header__bottom .header__inner').width(width)
   }
   
   let navicon = $('.navicon')

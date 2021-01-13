@@ -1,6 +1,6 @@
 $(function() {
   $('.header__wrapper').slick({
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     speed: 2000
   })
